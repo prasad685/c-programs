@@ -1,0 +1,10 @@
+#include<stdio.h>
+main(){
+int a,b,c;
+printf("enter values of a and b:");
+scanf("%d%d",&a,&b);
+c=b;
+a=b;
+b=c;
+printf("the swapping of two numbers is a is %d && b is %d",a,b);
+}
